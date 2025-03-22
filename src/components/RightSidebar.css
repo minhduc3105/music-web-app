@@ -1,0 +1,78 @@
+/* RightSidebar.css */
+.right-sidebar h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0 auto; /* Xóa khoảng cách thừa */
+  align-self: flex-start; /* Đẩy lên trên */
+}
+
+.detail-song-thumbnail {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+.song-details {
+  text-align: left;
+}
+
+.credits {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.next-song {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  height: 80px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.next-song:hover {
+  background-color: #555;
+}
+
+.next-song-details {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  height: 80px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.next-song-thumbnail {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.next-song-details {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  height: 80px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.next-song-details:hover {
+  background-color: #555;
+}
+
+.playlist {
+  max-height: 400px; /* Set a maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}

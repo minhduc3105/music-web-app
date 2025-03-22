@@ -1,0 +1,76 @@
+.song-list {
+  display: flex;
+  background-color: #666;
+  border-radius: 10px;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.song-item {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  height: 80px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.song-item:hover {
+  background-color: #555;
+}
+
+.song-index {
+  width: 30px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.song-thumbnail {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.song-info {
+  flex-grow: 1;
+}
+
+.song-title {
+  font-weight: bold;
+}
+
+.song-artist {
+  color: #666;
+}
+
+.song-actions {
+  display: flex;
+  align-items: center;
+}
+
+.song-duration {
+  margin-right: 10px;
+}
+
+.delete-button,
+.download-button {
+  background: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background-color: #1d1c1c;
+}
+
+.download-button:hover {
+  background-color: #1d1c1c;
+}

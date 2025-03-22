@@ -1,0 +1,64 @@
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  width: 100vw;
+  background-color: #121212;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #282828;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  width: 800px;
+  height: 500px;
+  max-width: 800px;
+  min-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container form {
+  width: 80%;
+}
+
+.signup-container input {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.signup-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1db954; /* Spotify green color */
+  color: white;
+  border: none;
+  border-radius: 50px; /* Rounded button */
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.signup-container button:hover {
+  background-color: #1aa34a; /* Darker green on hover */
+}
+
+.signup-container p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-container a {
+  color: #1db954; /* Spotify green color for link */
+  text-decoration: none;
+}
+
+.signup-container a:hover {
+  text-decoration: underline;
+}

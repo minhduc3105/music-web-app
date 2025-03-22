@@ -1,0 +1,20 @@
+Cài đặt phần mềm
+Sử dụng grox
+Cài đặt 1 website trên mọi nơi
+Nhóm bt 2:
+làm bt 
+http://112.137.129.129:8000/
+Mục tiêu: cảm nhận lập trình socket
+music-app/
+├── public/                # Thư mục chứa các file tĩnh (ảnh, icon, v.v.)
+├── src/                   # Thư mục chứa mã nguồn
+│   ├── assets/            # Thư mục chứa hình ảnh, icon
+│   ├── styles/            # Thư mục chứa CSS
+│   ├── scripts/           # Thư mục chứa JavaScript
+│   ├── components/        # Thư mục chứa các component (nếu dùng React)
+│   ├── App.jsx            # File chính của ứng dụng (nếu dùng React)
+│   └── main.js            # File chính của ứng dụng (nếu dùng Vanilla JS)
+├── index.html             # File HTML chính
+├── vite.config.js         # File cấu hình Vite
+└── package.json           # File quản lý dependencies
+Qwrpx@6Zv&gni2P

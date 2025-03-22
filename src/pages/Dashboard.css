@@ -1,0 +1,193 @@
+/* Dashboard.css */
+.container {
+  display: grid;
+  grid-template-areas:
+    "sidebar header right-sidebar"
+    "sidebar main-content right-sidebar"
+    "music-player music-player music-player";
+  grid-template-columns: 300px 1fr 400px;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  grid-area: sidebar;
+  background-color: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  padding: 20px;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.sidebar h2 {
+  color: #fff;
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar a {
+  display: flex;
+  width: 80%;
+  height: 50px;
+  align-items: center;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.sidebar-menu {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.sidebar-menu-item {
+  font-weight: 500;
+  color: #ccc;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 40px;
+  transition: background 0.3s ease;
+}
+
+.sidebar-menu-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-menu-item i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.sidebar-signout {
+  display: flex;
+  width: 80%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: #ccc;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 40px;
+  transition: background 0.3s ease;
+  margin-top: auto;
+  margin-bottom: 30px;
+}
+
+.sidebar-signout a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.sidebar-signout i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.sidebar-signout:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Header Styles */
+.top-nav {
+  grid-area: header;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  background-color: #333;
+}
+
+.top-nav a {
+  display: flex;
+  color: #ccc;
+  width: 120px;
+  height: 50px;
+  align-items: center;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.top-nav input {
+  width: 50%;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+.top-nav-item {
+  font-weight: 500;
+  color: #ccc;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 40px;
+  transition: background 0.3s ease;
+}
+
+.top-nav-item-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav :hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Main Content Styles */
+.main-content {
+  grid-area: main-content;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: #1f1e1e;
+}
+
+.right-sidebar {
+  grid-area: right-sidebar;
+  background-color: #2b2b2b;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.music-player {
+  grid-area: music-player;
+  background-color: #2b2b2b;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  height: 100px;
+
+  grid-area: music-player;
+  background-color: #2b2b2b;
+  padding: 20px;
+  display: grid;
+  grid-template-areas:
+    "currently-playing playback-controls additional-controls"
+    "currently-playing progress-bar additional-controls";
+  grid-template-columns: 300px auto 400px;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.fa-solid {
+  padding: 5px;
+}
