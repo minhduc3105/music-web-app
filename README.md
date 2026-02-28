@@ -16,11 +16,9 @@ Một ứng dụng nghe nhạc trực tuyến hiện đại, giao diện thân t
 
 Dự án này được xây dựng bằng các công nghệ:
 
-* **Frontend:** React.js / Vue.js (hoặc HTML/CSS/JS thuần)
-* **Database:** Supabase.
-* **Styling:** Tailwind CSS / SCSS
-* **State Management:** Redux / Context API
-* **API:** (Ví dụ: Spotify API, YouTube API hoặc Local JSON)
+* **Frontend:** React.js
+* **Database:** Supabase
+* **Styling:** CSS
 
 ## 🚀 Cài đặt và Chạy thử
 
