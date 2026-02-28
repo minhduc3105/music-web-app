@@ -1,21 +1,31 @@
-# React + Vite
+# 🎵 Music Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Một ứng dụng nghe nhạc trực tuyến hiện đại, giao diện thân thiện và trải nghiệm mượt mà. Dự án được xây dựng với mục tiêu cung cấp nền tảng giải trí âm nhạc cá nhân hóa.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Tính năng nổi bật
 
-## Expanding the ESLint configuration
+* **Phát nhạc trực tuyến:** Nghe các bài hát hot nhất với chất lượng âm thanh cao.
+* **Tìm kiếm thông minh:** Tìm kiếm bài hát, nghệ sĩ hoặc album nhanh chóng.
+* **Quản lý Playlist:** Tạo và chỉnh sửa danh sách phát yêu thích cá nhân.
+* **Giao diện Adaptive:** Tối ưu hóa hiển thị trên cả máy tính và thiết bị di động.
+* **Trình điều khiển đầy đủ:** Play, pause, skip, shuffle và repeat mode.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Công nghệ sử dụng
 
-To To complete the web application, you need to create a new file named supabase.js to connect with Supabase.
-import { createClient } from "@supabase/supabase-js";
+Dự án này được xây dựng bằng các công nghệ:
 
-const SUPABASE_URL = "your_url";
-const SUPABASE_ANON_KEY =
-  "your_anon_key";
+* **Frontend:** React.js / Vue.js (hoặc HTML/CSS/JS thuần)
+* **Database:** Supabase.
+* **Styling:** Tailwind CSS / SCSS
+* **State Management:** Redux / Context API
+* **API:** (Ví dụ: Spotify API, YouTube API hoặc Local JSON)
 
-export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+## 🚀 Cài đặt và Chạy thử
+
+Để chạy dự án này trên máy cục bộ, bạn thực hiện các bước sau:
+
+1. **Clone repository:**
+   ```bash
+   git clone [https://github.com/minhduc3105/music-web-app.git](https://github.com/minhduc3105/music-web-app.git)
